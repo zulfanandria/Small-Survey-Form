@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Electrical Engineering Student Survey</p>
+    <form id="survey-form">
+      <input id="name" type="text" placeholder="name" required></input>
+      <input id="email" type="email" placeholder="email" required></input>
+      <input id="number" type="number" min="8" max="20" placeholder="number" required></input>
+      <label id="name-label">Name</label>
+      <label id="email-label">Email</label>
+      <label id="number-label">Password</label>
+      <label>
+      <select id="dropdown" name="dropdown">
+        <option value="1st">1st Choice</option>
+       <option value="2nd">2nd Choice</option>
+       <option value="3rd">3rd Choice</option>
+      </select>
+      </label>  
+      <div>
+        <input type="radio" value="1st" name="1st Input"></input>
+        <input type="radio" value="2nd" name="2nd Input"></input>
+        <input type="checkbox" value="3rd" name="3rd Input"></input>
+        </div>
+      <div>
+        <input type="radio" value="1st" name="1st Input"></input>
+        <input type="radio" value="2nd" name="2nd Input"></input>
+        <input type="checkbox" value="3rd" name="3rd Input"></input>
+        </div>
+      <textarea>Whatever you want</textarea>
+      <button id="submit">Submit</button>
+      </form>
+  </body>
+</html>
